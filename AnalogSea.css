@@ -1,0 +1,55 @@
+body {
+	background-color: #4ca6ff;
+	padding: 40px;
+	font-size: 16px;
+	font-family: 'Roboto', helvetica, sans-serif;
+}
+
+img.resize {
+	margin-bottom: 40px;
+}
+
+.sign-up fieldset {
+	width: 320px;
+	margin: auto;
+	text-align: left;
+	padding: 40px;
+	background-color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+.sign-up label {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.sign-up input {
+	width: 286px;
+	border: 2px;
+	padding: 15px;
+	margin-bottom: 15px;
+	border: 2px solid gray;
+	border-radius: 2px;
+}
+
+.sign-up button {
+	text-align: center;
+	width: 286px;
+	border: 2px;
+	padding: 15px;
+	height: 55px;
+	background-color: green;
+	border-radius: 2px;
+}
+
+/*ran out of time for figuring out how to hover*/
+
+button:hover[type='submit'] {
+	background-color: green;
+	 -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    color: white;
+}
